@@ -1,0 +1,37 @@
+None
+
+NEIGHBOURHOODS:
+<ArrowStringArray>
+[               'Paharganj',             'Lajpat Nagar',
+          'South Extension',                'Old Delhi',
+          'Greater Kailash',          'Noida Sector 18',
+          'Connaught Place',                'Janakpuri',
+               'Karol Bagh',         'Noida Sector 137',
+    'Ghaziabad Indirapuram',              'Vasant Kunj',
+                'Hauz Khas',          'Noida Sector 62',
+       'Ghaziabad Vaishali',                   'Dwarka',
+                 'Aerocity',        'Gurgaon Sector 47',
+           'Rajendra Place',                    'Saket',
+          'Noida Sector 75',      'Faridabad Sector 15',
+               'Chattarpur',               'Mahipalpur',
+           'Defence Colony', 'Gurgaon Golf Course Road',
+              'Uttam Nagar',                'Vikaspuri',
+                 'Mehrauli',      'Gurgaon DLF Phase 2',
+       'Gurgaon Cyber City',               'Green Park']
+Length: 32, dtype: str
+
+NULL COUNTS:
+id                   0
+name                 0
+host_name            0
+neighbourhood        0
+room_type            0
+price                0
+minimum_nights       0
+number_of_reviews    0
+reviews_per_month    0
+availability_365     0
+latitude             0
+longitude            0
+area_type            0
+dtype: int64
