@@ -1,0 +1,67 @@
+-- ============================================================
+-- DELHI-NCR AIRBNB MARKET & PRICING ANALYTICS
+-- CORE ANALYTICAL QUERY SUITE
+-- ============================================================
+
+-- 1. Comparable Micro-Market IQR Bounds Analysis
+-- Calculates Q1, Median, Q3, and IQR spread per locality & layout
+WITH MicroMarketStats AS (
+    SELECT 
+        locality,
+        property_layout,
+        PERCENTILE_CONT(0.25) WITHIN GROUP (ORDER BY base_nightly_price) AS q1_price,
+        PERCENTILE_CONT(0.50) WITHIN GROUP (ORDER BY base_nightly_price) AS median_price,
+        PERCENTILE_CONT(0.75) WITHIN GROUP (ORDER BY base_nightly_price) AS q3_price
+    FROM booking_offers
+    GROUP BY locality, property_layout
+)
+SELECT 
+    locality,
+    property_layout,
+    ROUND(q1_price, 2) AS q1_price,
+    ROUND(median_price, 2) AS median_price,
+    ROUND(q3_price, 2) AS q3_price,
+    ROUND(q3_price - q1_price, 2) AS iqr_spread
+FROM MicroMarketStats
+ORDER BY locality, property_layout;
+
+
+-- 2. Regional Event Seasonality Multiplier & Realized Pricing
+-- Measures average surge multiplier and realized prices per tier
+SELECT 
+    seasonality_tier,
+    ROUND(AVG(surge_multiplier), 2) AS avg_surge_multiplier,
+    ROUND(AVG(final_nightly_price), 2) AS avg_realized_price,
+    COUNT(booking_id) AS total_offers
+FROM booking_offers
+GROUP BY seasonality_tier
+ORDER BY avg_surge_multiplier DESC;
+
+
+-- 3. Upsell Acceptance & Incremental Revenue Realization
+-- Evaluates conversion rate and additional revenue generated per customer segment
+SELECT 
+    customer_persona,
+    COUNT(booking_id) AS total_offers_sent,
+    SUM(CASE WHEN upsell_accepted = TRUE THEN 1 ELSE 0 END) AS accepted_upsells,
+    ROUND(AVG(CASE WHEN upsell_accepted = TRUE THEN 1.0 ELSE 0.0 END) * 100, 2) AS conversion_rate_pct,
+    SUM(CASE WHEN upsell_accepted = TRUE THEN (final_nightly_price - base_nightly_price) ELSE 0 END) AS total_incremental_revenue
+FROM booking_offers
+GROUP BY customer_persona
+ORDER BY conversion_rate_pct DESC;
+
+
+-- 4. Cancellation Leakage by Lead-Time Bucket
+-- Analyzes booking cancellation rate across lead time categories
+SELECT 
+    CASE 
+        WHEN booking_lead_time_days <= 7 THEN '0-7 Days (Short Lead)'
+        WHEN booking_lead_time_days <= 30 THEN '8-30 Days (Medium Lead)'
+        ELSE '30+ Days (Long Lead)'
+    END AS lead_time_bucket,
+    COUNT(booking_id) AS total_bookings,
+    SUM(CASE WHEN LOWER(booking_status) = 'cancelled' THEN 1 ELSE 0 END) AS total_cancelled,
+    ROUND(AVG(CASE WHEN LOWER(booking_status) = 'cancelled' THEN 1.0 ELSE 0.0 END) * 100, 2) AS cancellation_rate_pct
+FROM booking_offers
+GROUP BY lead_time_bucket
+ORDER BY lead_time_bucket;

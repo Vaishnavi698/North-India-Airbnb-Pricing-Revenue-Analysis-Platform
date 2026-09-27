@@ -1,0 +1,601 @@
+customer_id,customer_name,customer_segment,budget_min,budget_max,typical_guests,trip_purpose,preferred_region,prioritizes_safety,prioritizes_amenities
+C0001,Karan Sharma,Premium,6078,13187,2,Family Trip,No Preference,No,Yes
+C0002,Nikhil Gupta,Budget,1586,2572,3,Friends Trip,Delhi-NCR,No,No
+C0003,Meera Bhatia,Budget,1512,2285,2,Solo Trip,Delhi-NCR,Yes,No
+C0004,Vivaan Nair,Mid-Range,2923,5437,5,Corporate Trip,Delhi-NCR,No,No
+C0005,Pooja Mehra,Budget,1425,2378,4,Corporate Trip,Punjab,No,Yes
+C0006,Nikhil Iyer,Budget,1244,1840,2,Family Trip,Himachal Pradesh,Yes,No
+C0007,Aarav Mehra,Premium,6374,13167,4,Weekend Getaway,No Preference,Yes,No
+C0008,Pooja Iyer,Mid-Range,2522,3174,2,Weekend Getaway,No Preference,No,No
+C0009,Nikhil Kapoor,Budget,1453,2361,2,Solo Trip,Himachal Pradesh,No,No
+C0010,Neha Bhatia,Premium,5681,13856,3,Friends Trip,Punjab,No,Yes
+C0011,Ishaan Khanna,Mid-Range,2594,4872,2,Couple Getaway,Himachal Pradesh,No,Yes
+C0012,Neha Nair,Budget,1383,2032,2,Solo Trip,No Preference,No,No
+C0013,Priya Kapoor,Budget,1273,2396,2,Friends Trip,Delhi-NCR,No,Yes
+C0014,Neha Verma,Budget,1543,2488,2,Friends Trip,Delhi-NCR,Yes,No
+C0015,Rohan Verma,Budget,1660,2400,4,Corporate Trip,Delhi-NCR,No,No
+C0016,Tanvi Bhatia,Budget,1382,2797,4,Corporate Trip,Punjab,Yes,Yes
+C0017,Karan Verma,Premium,7935,11582,2,Weekend Getaway,No Preference,No,Yes
+C0018,Karan Kapoor,Budget,1521,2620,1,Couple Getaway,No Preference,No,No
+C0019,Sara Iyer,Budget,1552,2754,1,Weekend Getaway,Delhi-NCR,No,No
+C0020,Kabir Kapoor,Budget,1437,2213,5,Couple Getaway,Punjab,Yes,No
+C0021,Diya Chopra,Mid-Range,3374,4863,4,Weekend Getaway,Punjab,Yes,Yes
+C0022,Rahul Sharma,Premium,5679,13081,1,Family Trip,No Preference,No,Yes
+C0023,Aditya Gupta,Budget,1286,2442,3,Couple Getaway,Delhi-NCR,No,Yes
+C0024,Nikhil Reddy,Mid-Range,3390,5427,3,Solo Trip,Punjab,No,Yes
+C0025,Diya Bhatia,Premium,6428,14334,2,Corporate Trip,No Preference,No,No
+C0026,Priya Reddy,Budget,1213,2120,6,Solo Trip,Punjab,No,Yes
+C0027,Aditya Mehra,Mid-Range,3387,4390,2,Friends Trip,Himachal Pradesh,Yes,No
+C0028,Ishaan Sharma,Budget,1372,2192,5,Friends Trip,Delhi-NCR,No,Yes
+C0029,Meera Kapoor,Premium,5196,10982,5,Couple Getaway,Himachal Pradesh,No,No
+C0030,Yash Sharma,Premium,5237,12056,1,Family Trip,Delhi-NCR,No,No
+C0031,Priya Khanna,Budget,1457,2192,4,Corporate Trip,Delhi-NCR,No,No
+C0032,Yash Sharma,Budget,1659,2485,2,Couple Getaway,No Preference,Yes,Yes
+C0033,Tanvi Mehra,Budget,1201,2369,2,Couple Getaway,No Preference,No,No
+C0034,Ananya Chopra,Mid-Range,2550,3343,2,Corporate Trip,Delhi-NCR,No,Yes
+C0035,Tanvi Sharma,Budget,1384,1956,4,Couple Getaway,Delhi-NCR,No,No
+C0036,Karan Mehra,Mid-Range,2807,4843,3,Weekend Getaway,Delhi-NCR,Yes,No
+C0037,Diya Kapoor,Mid-Range,3211,4597,3,Corporate Trip,Himachal Pradesh,No,Yes
+C0038,Ishaan Malhotra,Budget,1604,2401,3,Weekend Getaway,Himachal Pradesh,Yes,No
+C0039,Nikhil Gupta,Mid-Range,3319,4322,3,Family Trip,Punjab,No,No
+C0040,Ishaan Chopra,Mid-Range,2578,5328,2,Weekend Getaway,No Preference,No,No
+C0041,Aditya Iyer,Budget,1678,2572,6,Corporate Trip,Himachal Pradesh,No,Yes
+C0042,Rahul Nair,Premium,5484,10157,4,Family Trip,Punjab,No,Yes
+C0043,Sara Kapoor,Budget,1407,1982,4,Family Trip,No Preference,Yes,No
+C0044,Sara Sharma,Budget,1673,2262,2,Corporate Trip,Himachal Pradesh,No,No
+C0045,Priya Gupta,Budget,1261,2718,2,Corporate Trip,Delhi-NCR,Yes,Yes
+C0046,Sara Iyer,Budget,1555,2428,2,Corporate Trip,Delhi-NCR,Yes,No
+C0047,Tanvi Mehra,Mid-Range,2984,3604,5,Weekend Getaway,Delhi-NCR,No,No
+C0048,Yash Kapoor,Budget,1283,2045,6,Solo Trip,No Preference,Yes,No
+C0049,Arjun Kapoor,Budget,1453,2116,1,Family Trip,Delhi-NCR,Yes,Yes
+C0050,Meera Iyer,Mid-Range,3004,4970,1,Friends Trip,Delhi-NCR,No,No
+C0051,Karan Khanna,Budget,1320,2662,5,Solo Trip,Delhi-NCR,No,Yes
+C0052,Tanvi Iyer,Budget,1231,2724,2,Family Trip,Delhi-NCR,No,No
+C0053,Neha Verma,Mid-Range,3373,4809,6,Friends Trip,Delhi-NCR,No,No
+C0054,Aditya Iyer,Budget,1648,2785,6,Solo Trip,Himachal Pradesh,No,No
+C0055,Meera Mehra,Premium,6653,9701,2,Family Trip,No Preference,Yes,Yes
+C0056,Kabir Bhatia,Premium,7231,13876,6,Weekend Getaway,Himachal Pradesh,No,No
+C0057,Aditya Reddy,Budget,1310,2383,6,Family Trip,Delhi-NCR,Yes,No
+C0058,Kabir Reddy,Mid-Range,2595,4591,2,Couple Getaway,Delhi-NCR,No,No
+C0059,Aditya Khanna,Budget,1452,2545,2,Friends Trip,Delhi-NCR,No,Yes
+C0060,Neha Nair,Mid-Range,3246,4828,5,Weekend Getaway,Punjab,No,No
+C0061,Ishaan Mehra,Budget,1387,2217,3,Friends Trip,Himachal Pradesh,Yes,No
+C0062,Rahul Bhatia,Premium,5057,10376,1,Couple Getaway,Delhi-NCR,No,No
+C0063,Meera Iyer,Mid-Range,2597,3281,5,Couple Getaway,No Preference,No,Yes
+C0064,Diya Bhatia,Mid-Range,3029,5323,3,Couple Getaway,Delhi-NCR,Yes,No
+C0065,Rahul Gupta,Mid-Range,2645,4598,3,Family Trip,Delhi-NCR,Yes,No
+C0066,Nikhil Kapoor,Budget,1670,2252,2,Weekend Getaway,Himachal Pradesh,Yes,No
+C0067,Meera Bhatia,Mid-Range,2533,5499,2,Family Trip,Delhi-NCR,Yes,No
+C0068,Ishaan Gupta,Budget,1650,2795,3,Friends Trip,Delhi-NCR,No,No
+C0069,Kabir Nair,Mid-Range,3121,3939,4,Corporate Trip,Punjab,No,Yes
+C0070,Meera Khanna,Budget,1560,2275,4,Friends Trip,Delhi-NCR,No,No
+C0071,Tanvi Mehra,Mid-Range,3307,4403,4,Family Trip,Delhi-NCR,No,No
+C0072,Rohan Bhatia,Mid-Range,3281,4313,2,Friends Trip,Himachal Pradesh,Yes,No
+C0073,Ishaan Iyer,Mid-Range,3341,5368,2,Solo Trip,Himachal Pradesh,No,No
+C0074,Vivaan Bhatia,Budget,1336,2374,5,Family Trip,Delhi-NCR,No,No
+C0075,Diya Malhotra,Budget,1392,2537,4,Couple Getaway,Delhi-NCR,No,No
+C0076,Aarav Gupta,Mid-Range,2944,3884,1,Weekend Getaway,Himachal Pradesh,No,No
+C0077,Rohan Chopra,Budget,1472,2430,3,Corporate Trip,Punjab,No,No
+C0078,Neha Malhotra,Budget,1637,2451,2,Weekend Getaway,Himachal Pradesh,No,No
+C0079,Aditya Khanna,Premium,7781,13833,2,Corporate Trip,Delhi-NCR,No,Yes
+C0080,Yash Iyer,Premium,6489,11847,3,Corporate Trip,Delhi-NCR,No,Yes
+C0081,Vivaan Sharma,Premium,7235,12213,2,Corporate Trip,Punjab,No,No
+C0082,Tanvi Bhatia,Premium,6373,8879,1,Family Trip,Delhi-NCR,No,No
+C0083,Rohan Gupta,Budget,1348,2347,2,Couple Getaway,Himachal Pradesh,Yes,No
+C0084,Arjun Kapoor,Budget,1584,2312,5,Solo Trip,Himachal Pradesh,Yes,No
+C0085,Meera Gupta,Mid-Range,2549,3255,4,Corporate Trip,Delhi-NCR,No,No
+C0086,Simran Bhatia,Mid-Range,3392,5466,4,Friends Trip,Delhi-NCR,Yes,Yes
+C0087,Diya Nair,Budget,1401,2654,2,Weekend Getaway,Delhi-NCR,No,No
+C0088,Ananya Khanna,Budget,1483,2426,4,Weekend Getaway,Delhi-NCR,No,No
+C0089,Aditya Verma,Mid-Range,3288,4135,6,Corporate Trip,Himachal Pradesh,Yes,No
+C0090,Yash Kapoor,Premium,5461,9922,3,Couple Getaway,Punjab,No,Yes
+C0091,Tanvi Gupta,Budget,1415,2725,2,Corporate Trip,Delhi-NCR,No,No
+C0092,Rohan Bhatia,Premium,5155,13223,6,Corporate Trip,Punjab,Yes,Yes
+C0093,Priya Kapoor,Budget,1570,2622,2,Couple Getaway,Delhi-NCR,Yes,No
+C0094,Yash Kapoor,Mid-Range,2606,5074,3,Corporate Trip,Punjab,No,Yes
+C0095,Ananya Kapoor,Budget,1322,2277,1,Weekend Getaway,Delhi-NCR,No,No
+C0096,Priya Reddy,Mid-Range,3072,4237,3,Couple Getaway,Delhi-NCR,No,No
+C0097,Kabir Kapoor,Premium,5957,12199,5,Couple Getaway,Delhi-NCR,No,Yes
+C0098,Karan Gupta,Budget,1291,2320,5,Couple Getaway,No Preference,Yes,Yes
+C0099,Nikhil Chopra,Premium,7180,10247,5,Weekend Getaway,Punjab,No,No
+C0100,Aditya Bhatia,Mid-Range,3342,5036,4,Corporate Trip,Punjab,No,No
+C0101,Rahul Bhatia,Budget,1310,2033,4,Corporate Trip,Delhi-NCR,Yes,No
+C0102,Yash Iyer,Premium,5372,11976,2,Weekend Getaway,Himachal Pradesh,No,No
+C0103,Yash Iyer,Mid-Range,2885,4873,4,Weekend Getaway,Punjab,No,No
+C0104,Kabir Mehra,Budget,1294,2770,3,Couple Getaway,Punjab,No,Yes
+C0105,Kabir Sharma,Budget,1317,2616,3,Solo Trip,No Preference,No,Yes
+C0106,Aarav Kapoor,Premium,6066,7203,2,Solo Trip,No Preference,Yes,Yes
+C0107,Ishaan Verma,Premium,7511,8971,2,Couple Getaway,Himachal Pradesh,Yes,No
+C0108,Vivaan Iyer,Premium,7903,11263,5,Corporate Trip,No Preference,No,No
+C0109,Yash Chopra,Budget,1465,1973,2,Solo Trip,Punjab,Yes,No
+C0110,Ananya Mehra,Budget,1224,2475,1,Family Trip,Delhi-NCR,No,No
+C0111,Kabir Kapoor,Premium,5678,14863,2,Friends Trip,No Preference,Yes,No
+C0112,Ananya Iyer,Premium,6264,8849,2,Solo Trip,Delhi-NCR,Yes,Yes
+C0113,Aarav Verma,Budget,1251,2517,5,Family Trip,Delhi-NCR,Yes,No
+C0114,Aarav Gupta,Mid-Range,3194,4586,3,Couple Getaway,Himachal Pradesh,No,No
+C0115,Neha Khanna,Budget,1456,2792,1,Couple Getaway,Delhi-NCR,No,Yes
+C0116,Ananya Bhatia,Mid-Range,3058,4624,2,Solo Trip,Punjab,Yes,No
+C0117,Aditya Iyer,Budget,1541,2361,6,Corporate Trip,Delhi-NCR,No,Yes
+C0118,Priya Kapoor,Budget,1617,2180,4,Corporate Trip,No Preference,No,No
+C0119,Simran Malhotra,Mid-Range,2780,5466,3,Weekend Getaway,Delhi-NCR,No,No
+C0120,Aarav Verma,Budget,1343,2558,6,Friends Trip,No Preference,Yes,No
+C0121,Karan Mehra,Budget,1494,2316,2,Solo Trip,Delhi-NCR,Yes,Yes
+C0122,Vivaan Kapoor,Budget,1274,1839,4,Corporate Trip,Himachal Pradesh,Yes,Yes
+C0123,Pooja Bhatia,Budget,1407,2733,6,Family Trip,Delhi-NCR,No,No
+C0124,Kabir Verma,Budget,1531,2282,5,Solo Trip,Delhi-NCR,No,No
+C0125,Nikhil Khanna,Budget,1250,2473,3,Solo Trip,Punjab,Yes,Yes
+C0126,Meera Kapoor,Mid-Range,2771,4034,3,Couple Getaway,No Preference,Yes,Yes
+C0127,Aditya Chopra,Premium,6218,13804,2,Weekend Getaway,Himachal Pradesh,Yes,No
+C0128,Sara Sharma,Budget,1605,2671,3,Couple Getaway,Punjab,No,Yes
+C0129,Tanvi Bhatia,Budget,1499,2151,5,Solo Trip,Punjab,No,Yes
+C0130,Aarav Mehra,Budget,1663,2466,3,Corporate Trip,Delhi-NCR,No,No
+C0131,Ananya Reddy,Mid-Range,3387,4493,5,Weekend Getaway,Delhi-NCR,No,No
+C0132,Pooja Kapoor,Mid-Range,2632,4528,1,Family Trip,No Preference,Yes,No
+C0133,Vivaan Malhotra,Budget,1213,2123,6,Corporate Trip,No Preference,No,No
+C0134,Yash Malhotra,Mid-Range,3377,4772,4,Solo Trip,Delhi-NCR,No,No
+C0135,Pooja Gupta,Budget,1271,2602,2,Friends Trip,Punjab,No,Yes
+C0136,Tanvi Reddy,Budget,1517,2435,4,Friends Trip,Himachal Pradesh,Yes,Yes
+C0137,Nikhil Gupta,Premium,6454,14205,3,Weekend Getaway,Delhi-NCR,Yes,No
+C0138,Vivaan Nair,Budget,1444,2789,4,Friends Trip,Himachal Pradesh,Yes,Yes
+C0139,Ananya Chopra,Premium,5385,6955,3,Couple Getaway,Himachal Pradesh,No,No
+C0140,Nikhil Mehra,Mid-Range,2665,3334,3,Corporate Trip,No Preference,No,No
+C0141,Neha Chopra,Budget,1429,2124,2,Corporate Trip,Punjab,No,No
+C0142,Sara Verma,Budget,1388,2149,2,Weekend Getaway,Delhi-NCR,No,Yes
+C0143,Rohan Verma,Budget,1399,2541,2,Family Trip,Himachal Pradesh,Yes,No
+C0144,Aditya Sharma,Mid-Range,2787,3928,3,Corporate Trip,No Preference,No,No
+C0145,Nikhil Gupta,Premium,6499,13669,3,Couple Getaway,No Preference,Yes,No
+C0146,Ananya Khanna,Budget,1349,2303,3,Weekend Getaway,Delhi-NCR,No,Yes
+C0147,Aditya Reddy,Premium,6237,9555,6,Solo Trip,Himachal Pradesh,No,No
+C0148,Kabir Iyer,Budget,1625,2348,1,Friends Trip,Delhi-NCR,Yes,No
+C0149,Meera Chopra,Mid-Range,3239,4335,3,Corporate Trip,Punjab,Yes,No
+C0150,Rohan Mehra,Budget,1324,2202,4,Couple Getaway,Himachal Pradesh,No,No
+C0151,Yash Kapoor,Premium,5088,7416,2,Solo Trip,No Preference,Yes,Yes
+C0152,Simran Reddy,Mid-Range,3268,4217,2,Couple Getaway,Himachal Pradesh,No,No
+C0153,Priya Reddy,Mid-Range,2588,3378,1,Solo Trip,Punjab,No,No
+C0154,Tanvi Malhotra,Budget,1437,2358,4,Solo Trip,Himachal Pradesh,No,No
+C0155,Neha Chopra,Budget,1419,2055,4,Weekend Getaway,Himachal Pradesh,No,Yes
+C0156,Ishaan Kapoor,Budget,1460,2018,4,Weekend Getaway,Punjab,Yes,No
+C0157,Vivaan Iyer,Budget,1370,2100,5,Friends Trip,Himachal Pradesh,No,No
+C0158,Rohan Malhotra,Mid-Range,2694,4506,3,Solo Trip,Himachal Pradesh,No,No
+C0159,Nikhil Khanna,Budget,1629,2467,1,Weekend Getaway,Delhi-NCR,No,Yes
+C0160,Yash Bhatia,Budget,1573,2622,3,Friends Trip,Himachal Pradesh,No,No
+C0161,Kabir Mehra,Mid-Range,2562,4909,3,Family Trip,Delhi-NCR,Yes,Yes
+C0162,Aditya Mehra,Mid-Range,2679,4938,4,Solo Trip,Himachal Pradesh,No,No
+C0163,Sara Malhotra,Mid-Range,3040,4700,2,Family Trip,Delhi-NCR,No,No
+C0164,Tanvi Nair,Premium,5339,10406,1,Solo Trip,No Preference,Yes,Yes
+C0165,Diya Chopra,Premium,7903,11333,6,Weekend Getaway,Himachal Pradesh,No,Yes
+C0166,Ananya Khanna,Premium,7933,10859,2,Corporate Trip,Himachal Pradesh,Yes,No
+C0167,Diya Khanna,Mid-Range,3023,4011,2,Solo Trip,Delhi-NCR,No,No
+C0168,Nikhil Nair,Budget,1662,2418,2,Couple Getaway,No Preference,No,No
+C0169,Rahul Gupta,Budget,1217,2025,1,Weekend Getaway,Himachal Pradesh,No,Yes
+C0170,Meera Kapoor,Premium,7477,12306,4,Couple Getaway,No Preference,No,Yes
+C0171,Neha Malhotra,Budget,1466,1990,3,Corporate Trip,No Preference,No,No
+C0172,Neha Khanna,Budget,1510,2474,6,Solo Trip,Himachal Pradesh,No,No
+C0173,Vivaan Verma,Budget,1403,2709,3,Couple Getaway,Himachal Pradesh,Yes,No
+C0174,Arjun Chopra,Budget,1550,2327,4,Solo Trip,Punjab,Yes,No
+C0175,Arjun Reddy,Budget,1612,2530,2,Weekend Getaway,Punjab,No,No
+C0176,Sara Nair,Budget,1391,2268,4,Weekend Getaway,Delhi-NCR,No,Yes
+C0177,Aditya Chopra,Budget,1359,2151,4,Solo Trip,Himachal Pradesh,No,No
+C0178,Priya Chopra,Premium,6974,7896,4,Solo Trip,Punjab,No,No
+C0179,Pooja Reddy,Mid-Range,3077,4272,1,Family Trip,Delhi-NCR,No,No
+C0180,Neha Reddy,Premium,7099,14349,6,Couple Getaway,Himachal Pradesh,Yes,No
+C0181,Ishaan Malhotra,Premium,6380,7814,3,Family Trip,No Preference,No,No
+C0182,Simran Kapoor,Premium,6703,11773,1,Solo Trip,Punjab,No,No
+C0183,Pooja Mehra,Budget,1608,2259,1,Weekend Getaway,Punjab,No,No
+C0184,Ishaan Nair,Budget,1540,2683,3,Weekend Getaway,Delhi-NCR,Yes,No
+C0185,Ishaan Iyer,Premium,7025,9721,4,Family Trip,Himachal Pradesh,Yes,No
+C0186,Vivaan Nair,Mid-Range,2507,4578,2,Solo Trip,Punjab,No,No
+C0187,Pooja Chopra,Premium,5558,14803,2,Friends Trip,Himachal Pradesh,No,No
+C0188,Aditya Khanna,Mid-Range,3100,3696,2,Solo Trip,Delhi-NCR,Yes,Yes
+C0189,Aarav Nair,Mid-Range,3015,4867,4,Friends Trip,No Preference,No,No
+C0190,Simran Khanna,Budget,1352,2185,4,Couple Getaway,No Preference,No,No
+C0191,Tanvi Reddy,Budget,1623,2698,6,Couple Getaway,Delhi-NCR,No,No
+C0192,Arjun Sharma,Budget,1594,2706,2,Friends Trip,Delhi-NCR,No,No
+C0193,Sara Verma,Mid-Range,2889,3875,4,Family Trip,Delhi-NCR,No,No
+C0194,Ishaan Chopra,Budget,1214,1851,6,Family Trip,Himachal Pradesh,Yes,No
+C0195,Pooja Khanna,Premium,6456,8140,2,Corporate Trip,No Preference,No,No
+C0196,Arjun Malhotra,Mid-Range,3020,4514,1,Corporate Trip,Delhi-NCR,No,Yes
+C0197,Karan Sharma,Premium,7846,14570,2,Weekend Getaway,Punjab,No,Yes
+C0198,Neha Nair,Budget,1253,2465,4,Weekend Getaway,Delhi-NCR,No,No
+C0199,Ananya Gupta,Budget,1619,2271,5,Solo Trip,Punjab,No,No
+C0200,Neha Verma,Mid-Range,3316,4027,2,Corporate Trip,Delhi-NCR,Yes,Yes
+C0201,Aditya Sharma,Budget,1628,2678,5,Weekend Getaway,No Preference,Yes,No
+C0202,Pooja Iyer,Premium,5762,7536,2,Solo Trip,No Preference,No,Yes
+C0203,Ananya Verma,Budget,1554,2525,1,Weekend Getaway,Delhi-NCR,Yes,Yes
+C0204,Neha Khanna,Mid-Range,2679,3793,3,Weekend Getaway,Delhi-NCR,No,Yes
+C0205,Aarav Sharma,Premium,6152,8549,2,Couple Getaway,Delhi-NCR,No,Yes
+C0206,Simran Nair,Budget,1556,2570,2,Corporate Trip,Delhi-NCR,Yes,No
+C0207,Sara Sharma,Mid-Range,2528,4462,4,Corporate Trip,No Preference,No,No
+C0208,Simran Verma,Budget,1633,2266,2,Solo Trip,Himachal Pradesh,Yes,No
+C0209,Rahul Verma,Budget,1559,2630,5,Solo Trip,Delhi-NCR,No,No
+C0210,Karan Verma,Mid-Range,3312,3928,2,Family Trip,Delhi-NCR,Yes,Yes
+C0211,Neha Bhatia,Premium,6912,11393,6,Weekend Getaway,No Preference,No,No
+C0212,Rohan Bhatia,Budget,1607,2314,2,Family Trip,Himachal Pradesh,No,Yes
+C0213,Tanvi Reddy,Mid-Range,2660,3782,6,Friends Trip,No Preference,No,No
+C0214,Simran Chopra,Budget,1286,2103,4,Weekend Getaway,Delhi-NCR,No,Yes
+C0215,Arjun Iyer,Mid-Range,2811,4854,4,Couple Getaway,Himachal Pradesh,Yes,No
+C0216,Tanvi Kapoor,Budget,1230,2455,5,Friends Trip,Delhi-NCR,No,Yes
+C0217,Yash Chopra,Mid-Range,2606,4763,2,Couple Getaway,Himachal Pradesh,No,No
+C0218,Kabir Sharma,Premium,7228,9033,5,Corporate Trip,Himachal Pradesh,Yes,Yes
+C0219,Rohan Gupta,Premium,7791,13491,4,Couple Getaway,Delhi-NCR,No,Yes
+C0220,Ishaan Kapoor,Mid-Range,3040,5379,1,Couple Getaway,No Preference,No,No
+C0221,Rohan Khanna,Budget,1518,2287,3,Couple Getaway,Delhi-NCR,No,No
+C0222,Pooja Bhatia,Budget,1387,2179,2,Family Trip,Punjab,No,No
+C0223,Rahul Iyer,Premium,6033,6621,1,Friends Trip,Himachal Pradesh,Yes,Yes
+C0224,Arjun Iyer,Budget,1313,2359,5,Friends Trip,Himachal Pradesh,No,No
+C0225,Yash Sharma,Budget,1543,2518,2,Solo Trip,Delhi-NCR,No,No
+C0226,Rahul Chopra,Budget,1421,2460,4,Corporate Trip,Delhi-NCR,No,No
+C0227,Aditya Kapoor,Mid-Range,2997,4701,4,Friends Trip,Delhi-NCR,Yes,No
+C0228,Ishaan Sharma,Premium,6044,14258,4,Family Trip,Himachal Pradesh,No,Yes
+C0229,Meera Khanna,Budget,1228,2011,2,Weekend Getaway,Delhi-NCR,No,Yes
+C0230,Ishaan Sharma,Budget,1384,2791,2,Couple Getaway,Delhi-NCR,Yes,No
+C0231,Ananya Iyer,Mid-Range,3225,5306,6,Family Trip,Himachal Pradesh,Yes,No
+C0232,Arjun Reddy,Mid-Range,3105,4343,5,Corporate Trip,Delhi-NCR,No,No
+C0233,Yash Sharma,Budget,1409,2342,2,Corporate Trip,No Preference,No,No
+C0234,Aditya Reddy,Premium,6092,10237,6,Weekend Getaway,Punjab,No,Yes
+C0235,Ishaan Mehra,Mid-Range,2814,3916,1,Couple Getaway,Himachal Pradesh,No,Yes
+C0236,Arjun Nair,Budget,1396,1991,2,Weekend Getaway,Punjab,No,No
+C0237,Neha Kapoor,Mid-Range,3255,4341,2,Friends Trip,Punjab,No,No
+C0238,Yash Gupta,Budget,1391,2559,3,Couple Getaway,Himachal Pradesh,No,No
+C0239,Rohan Reddy,Budget,1624,2237,6,Friends Trip,No Preference,No,No
+C0240,Pooja Mehra,Budget,1210,1927,6,Corporate Trip,No Preference,No,No
+C0241,Kabir Nair,Mid-Range,3361,4862,2,Friends Trip,Delhi-NCR,No,Yes
+C0242,Aarav Khanna,Mid-Range,2771,3699,6,Corporate Trip,Punjab,No,No
+C0243,Sara Nair,Mid-Range,2771,5075,5,Weekend Getaway,Himachal Pradesh,No,No
+C0244,Aarav Reddy,Budget,1674,2242,3,Family Trip,Himachal Pradesh,No,No
+C0245,Arjun Verma,Budget,1444,2197,2,Solo Trip,Himachal Pradesh,No,No
+C0246,Arjun Reddy,Premium,7478,14587,4,Couple Getaway,No Preference,Yes,Yes
+C0247,Simran Verma,Budget,1516,2190,4,Family Trip,Himachal Pradesh,No,Yes
+C0248,Diya Malhotra,Mid-Range,3183,3919,3,Friends Trip,No Preference,No,No
+C0249,Aditya Gupta,Mid-Range,3313,4639,6,Weekend Getaway,Punjab,No,No
+C0250,Simran Khanna,Budget,1677,2187,3,Corporate Trip,Himachal Pradesh,Yes,No
+C0251,Aditya Malhotra,Mid-Range,3091,5010,6,Solo Trip,Himachal Pradesh,No,No
+C0252,Priya Mehra,Mid-Range,2636,5099,5,Weekend Getaway,Delhi-NCR,No,No
+C0253,Rahul Nair,Mid-Range,3381,4064,1,Corporate Trip,No Preference,No,No
+C0254,Diya Verma,Budget,1658,2360,1,Couple Getaway,Delhi-NCR,No,No
+C0255,Neha Iyer,Mid-Range,3340,4446,3,Corporate Trip,Delhi-NCR,No,No
+C0256,Vivaan Khanna,Budget,1535,2405,2,Friends Trip,Punjab,No,No
+C0257,Aditya Reddy,Budget,1214,2267,4,Friends Trip,Delhi-NCR,No,No
+C0258,Ishaan Kapoor,Premium,6336,8346,1,Family Trip,Delhi-NCR,Yes,Yes
+C0259,Karan Iyer,Budget,1509,2622,3,Friends Trip,Delhi-NCR,Yes,No
+C0260,Simran Chopra,Mid-Range,2718,3567,1,Solo Trip,No Preference,Yes,No
+C0261,Vivaan Kapoor,Budget,1600,2242,3,Friends Trip,Himachal Pradesh,Yes,No
+C0262,Ananya Sharma,Premium,5129,7251,2,Couple Getaway,Punjab,No,No
+C0263,Ishaan Kapoor,Mid-Range,3334,4626,4,Couple Getaway,Punjab,No,Yes
+C0264,Aarav Kapoor,Mid-Range,3314,4344,2,Friends Trip,Himachal Pradesh,No,No
+C0265,Priya Malhotra,Premium,5449,13943,5,Corporate Trip,Himachal Pradesh,No,No
+C0266,Tanvi Mehra,Budget,1296,2742,2,Corporate Trip,Delhi-NCR,No,No
+C0267,Pooja Khanna,Premium,7049,14479,2,Corporate Trip,No Preference,No,Yes
+C0268,Simran Verma,Mid-Range,3319,4948,2,Solo Trip,Himachal Pradesh,No,No
+C0269,Pooja Bhatia,Budget,1303,2615,1,Solo Trip,Punjab,No,No
+C0270,Arjun Verma,Mid-Range,2980,5278,5,Couple Getaway,Delhi-NCR,No,No
+C0271,Kabir Bhatia,Mid-Range,2634,3717,6,Corporate Trip,No Preference,No,Yes
+C0272,Nikhil Khanna,Mid-Range,2860,3713,3,Corporate Trip,Delhi-NCR,No,No
+C0273,Vivaan Verma,Budget,1448,2600,2,Couple Getaway,Punjab,No,No
+C0274,Priya Mehra,Budget,1669,2673,3,Corporate Trip,No Preference,Yes,No
+C0275,Ishaan Verma,Mid-Range,3368,4902,4,Corporate Trip,Himachal Pradesh,No,No
+C0276,Meera Khanna,Premium,5556,10307,6,Solo Trip,Punjab,No,No
+C0277,Simran Nair,Premium,6177,12549,6,Family Trip,Delhi-NCR,No,No
+C0278,Aditya Gupta,Premium,7963,8604,2,Friends Trip,No Preference,No,Yes
+C0279,Rahul Mehra,Budget,1260,2428,2,Friends Trip,Delhi-NCR,No,No
+C0280,Tanvi Chopra,Premium,5705,11352,5,Couple Getaway,Delhi-NCR,No,Yes
+C0281,Neha Nair,Budget,1310,1968,4,Solo Trip,No Preference,No,Yes
+C0282,Arjun Sharma,Budget,1315,2505,2,Friends Trip,Delhi-NCR,Yes,No
+C0283,Rohan Gupta,Premium,7410,14097,2,Corporate Trip,Himachal Pradesh,No,Yes
+C0284,Vivaan Iyer,Mid-Range,3157,5392,3,Corporate Trip,No Preference,Yes,Yes
+C0285,Kabir Gupta,Mid-Range,2660,5238,4,Friends Trip,No Preference,Yes,No
+C0286,Meera Khanna,Premium,5411,5991,6,Corporate Trip,Punjab,No,No
+C0287,Diya Sharma,Budget,1446,2735,2,Couple Getaway,Punjab,No,No
+C0288,Arjun Verma,Budget,1301,2281,4,Solo Trip,Delhi-NCR,No,Yes
+C0289,Kabir Khanna,Budget,1470,2517,3,Weekend Getaway,Delhi-NCR,No,No
+C0290,Rahul Sharma,Premium,6029,7492,5,Solo Trip,Delhi-NCR,No,Yes
+C0291,Simran Malhotra,Budget,1491,2617,2,Family Trip,Himachal Pradesh,No,No
+C0292,Arjun Nair,Premium,7953,8971,4,Solo Trip,Himachal Pradesh,Yes,Yes
+C0293,Simran Malhotra,Mid-Range,2950,5476,3,Weekend Getaway,Punjab,Yes,No
+C0294,Ishaan Chopra,Premium,7978,13083,2,Corporate Trip,Himachal Pradesh,No,No
+C0295,Pooja Reddy,Mid-Range,3310,4523,2,Weekend Getaway,Punjab,No,No
+C0296,Ananya Kapoor,Mid-Range,2538,5328,2,Friends Trip,Punjab,Yes,Yes
+C0297,Sara Iyer,Budget,1357,1905,2,Couple Getaway,Delhi-NCR,Yes,No
+C0298,Tanvi Verma,Budget,1349,2664,3,Weekend Getaway,Delhi-NCR,No,Yes
+C0299,Nikhil Sharma,Mid-Range,3155,5272,5,Family Trip,Delhi-NCR,No,Yes
+C0300,Ananya Sharma,Mid-Range,3376,4918,2,Friends Trip,Himachal Pradesh,No,No
+C0301,Simran Malhotra,Budget,1208,2005,1,Weekend Getaway,Delhi-NCR,No,Yes
+C0302,Meera Khanna,Mid-Range,2521,3083,2,Couple Getaway,No Preference,No,No
+C0303,Kabir Malhotra,Premium,6296,11725,2,Solo Trip,No Preference,No,Yes
+C0304,Tanvi Sharma,Budget,1522,2292,2,Friends Trip,Punjab,No,Yes
+C0305,Yash Kapoor,Mid-Range,2952,4312,5,Couple Getaway,Punjab,No,No
+C0306,Neha Bhatia,Budget,1592,2535,2,Corporate Trip,Delhi-NCR,No,No
+C0307,Priya Sharma,Mid-Range,3210,3956,2,Weekend Getaway,No Preference,Yes,Yes
+C0308,Sara Verma,Budget,1628,2741,6,Couple Getaway,No Preference,No,No
+C0309,Simran Verma,Mid-Range,2942,3576,4,Corporate Trip,Punjab,Yes,No
+C0310,Rohan Mehra,Mid-Range,2620,3416,2,Friends Trip,Himachal Pradesh,Yes,No
+C0311,Diya Chopra,Premium,7051,12658,6,Friends Trip,Delhi-NCR,No,Yes
+C0312,Ishaan Verma,Budget,1559,2731,6,Weekend Getaway,Punjab,Yes,No
+C0313,Meera Iyer,Budget,1473,2241,1,Solo Trip,No Preference,No,No
+C0314,Vivaan Bhatia,Mid-Range,3387,5374,4,Solo Trip,No Preference,Yes,Yes
+C0315,Vivaan Kapoor,Premium,6447,7883,2,Family Trip,Delhi-NCR,No,No
+C0316,Priya Mehra,Mid-Range,3106,3985,6,Friends Trip,Delhi-NCR,No,No
+C0317,Arjun Malhotra,Budget,1605,2461,2,Friends Trip,Delhi-NCR,No,No
+C0318,Kabir Chopra,Budget,1512,2546,1,Solo Trip,Himachal Pradesh,Yes,Yes
+C0319,Arjun Gupta,Budget,1266,2297,3,Friends Trip,Delhi-NCR,No,No
+C0320,Aditya Iyer,Budget,1423,2107,2,Couple Getaway,Punjab,No,No
+C0321,Vivaan Verma,Premium,6422,13536,6,Corporate Trip,Delhi-NCR,Yes,No
+C0322,Rahul Khanna,Mid-Range,2737,4686,1,Friends Trip,Delhi-NCR,No,No
+C0323,Simran Kapoor,Mid-Range,2558,5492,4,Friends Trip,Delhi-NCR,No,Yes
+C0324,Priya Sharma,Mid-Range,2687,4430,2,Solo Trip,Delhi-NCR,Yes,No
+C0325,Priya Bhatia,Budget,1455,2397,3,Friends Trip,No Preference,No,No
+C0326,Meera Malhotra,Mid-Range,2772,5093,3,Family Trip,Punjab,Yes,No
+C0327,Neha Gupta,Mid-Range,2702,4049,2,Weekend Getaway,Delhi-NCR,No,No
+C0328,Kabir Bhatia,Mid-Range,2856,4822,3,Couple Getaway,Delhi-NCR,No,No
+C0329,Diya Verma,Mid-Range,3117,4678,5,Friends Trip,No Preference,No,No
+C0330,Rohan Iyer,Mid-Range,2900,3458,3,Solo Trip,No Preference,Yes,No
+C0331,Yash Iyer,Premium,6687,11744,5,Couple Getaway,Himachal Pradesh,No,No
+C0332,Vivaan Bhatia,Budget,1313,2016,2,Corporate Trip,No Preference,Yes,No
+C0333,Pooja Chopra,Budget,1619,2742,1,Couple Getaway,Delhi-NCR,Yes,Yes
+C0334,Sara Khanna,Budget,1314,2664,2,Family Trip,Himachal Pradesh,No,Yes
+C0335,Ishaan Iyer,Budget,1395,2063,3,Solo Trip,Punjab,Yes,Yes
+C0336,Vivaan Iyer,Mid-Range,3097,4963,2,Family Trip,Delhi-NCR,No,No
+C0337,Simran Kapoor,Mid-Range,2566,4833,1,Corporate Trip,Delhi-NCR,Yes,No
+C0338,Meera Verma,Mid-Range,3366,5295,4,Weekend Getaway,Delhi-NCR,No,No
+C0339,Rahul Chopra,Mid-Range,2697,3731,1,Friends Trip,Delhi-NCR,No,No
+C0340,Neha Khanna,Premium,6489,11484,3,Friends Trip,Punjab,No,No
+C0341,Ishaan Sharma,Premium,5101,9379,6,Weekend Getaway,Punjab,No,Yes
+C0342,Vivaan Kapoor,Premium,6383,9864,2,Family Trip,Delhi-NCR,No,No
+C0343,Neha Bhatia,Mid-Range,2555,3264,6,Solo Trip,Himachal Pradesh,No,No
+C0344,Arjun Sharma,Mid-Range,2615,5340,3,Solo Trip,Delhi-NCR,No,No
+C0345,Rahul Nair,Budget,1529,2608,2,Corporate Trip,Delhi-NCR,No,No
+C0346,Ananya Sharma,Budget,1430,2075,1,Weekend Getaway,No Preference,No,No
+C0347,Rahul Khanna,Budget,1589,2480,5,Friends Trip,Himachal Pradesh,No,Yes
+C0348,Meera Mehra,Budget,1383,2626,5,Corporate Trip,No Preference,Yes,No
+C0349,Tanvi Gupta,Budget,1475,2397,2,Friends Trip,Punjab,Yes,No
+C0350,Rohan Iyer,Mid-Range,2532,3806,3,Corporate Trip,Himachal Pradesh,No,No
+C0351,Neha Bhatia,Mid-Range,3117,3765,6,Friends Trip,No Preference,No,Yes
+C0352,Pooja Malhotra,Budget,1676,2499,3,Solo Trip,No Preference,No,No
+C0353,Neha Kapoor,Budget,1304,2726,2,Family Trip,Delhi-NCR,Yes,No
+C0354,Tanvi Mehra,Mid-Range,3248,5137,3,Weekend Getaway,Delhi-NCR,Yes,No
+C0355,Aarav Reddy,Premium,7543,10566,3,Couple Getaway,No Preference,Yes,No
+C0356,Vivaan Gupta,Budget,1530,2098,2,Solo Trip,Himachal Pradesh,Yes,Yes
+C0357,Sara Malhotra,Premium,7794,14737,2,Corporate Trip,Delhi-NCR,Yes,Yes
+C0358,Meera Verma,Mid-Range,2769,3523,3,Weekend Getaway,Himachal Pradesh,No,Yes
+C0359,Vivaan Khanna,Mid-Range,3298,4286,2,Family Trip,Himachal Pradesh,No,No
+C0360,Ananya Chopra,Budget,1250,2307,1,Solo Trip,Punjab,Yes,No
+C0361,Pooja Mehra,Budget,1612,2268,1,Friends Trip,No Preference,No,No
+C0362,Priya Nair,Mid-Range,2610,3337,2,Couple Getaway,Punjab,Yes,No
+C0363,Vivaan Gupta,Mid-Range,3135,3772,3,Family Trip,No Preference,No,Yes
+C0364,Diya Iyer,Budget,1410,2508,3,Weekend Getaway,Delhi-NCR,No,No
+C0365,Meera Chopra,Budget,1280,2565,1,Corporate Trip,No Preference,No,No
+C0366,Priya Kapoor,Mid-Range,2627,4170,2,Weekend Getaway,No Preference,No,Yes
+C0367,Yash Verma,Budget,1546,2133,3,Corporate Trip,Punjab,Yes,No
+C0368,Simran Kapoor,Premium,5805,13321,5,Friends Trip,No Preference,No,No
+C0369,Sara Nair,Premium,7161,10846,3,Weekend Getaway,Himachal Pradesh,No,No
+C0370,Kabir Reddy,Premium,5695,12293,3,Weekend Getaway,Delhi-NCR,No,No
+C0371,Yash Verma,Mid-Range,2588,4663,5,Family Trip,No Preference,No,No
+C0372,Vivaan Kapoor,Budget,1559,2628,6,Couple Getaway,Himachal Pradesh,No,No
+C0373,Aarav Bhatia,Budget,1652,2363,4,Friends Trip,Punjab,No,No
+C0374,Diya Gupta,Budget,1399,2488,3,Corporate Trip,Punjab,No,No
+C0375,Rahul Malhotra,Budget,1619,2281,2,Solo Trip,Himachal Pradesh,No,No
+C0376,Rahul Iyer,Premium,5740,14493,2,Couple Getaway,Himachal Pradesh,No,No
+C0377,Meera Sharma,Premium,5598,10223,3,Couple Getaway,Himachal Pradesh,Yes,No
+C0378,Kabir Bhatia,Budget,1485,2111,2,Family Trip,Punjab,Yes,Yes
+C0379,Rohan Nair,Premium,5582,14716,4,Corporate Trip,Punjab,No,No
+C0380,Sara Kapoor,Budget,1205,2146,1,Friends Trip,No Preference,Yes,No
+C0381,Arjun Reddy,Mid-Range,2741,4628,2,Weekend Getaway,No Preference,No,No
+C0382,Tanvi Gupta,Budget,1296,2755,4,Friends Trip,Himachal Pradesh,No,Yes
+C0383,Sara Gupta,Premium,6741,12706,4,Weekend Getaway,Delhi-NCR,No,Yes
+C0384,Simran Gupta,Budget,1429,2608,4,Family Trip,Himachal Pradesh,No,Yes
+C0385,Nikhil Mehra,Mid-Range,3108,3950,3,Corporate Trip,Punjab,No,No
+C0386,Kabir Chopra,Budget,1645,2498,3,Friends Trip,Delhi-NCR,Yes,No
+C0387,Ishaan Bhatia,Budget,1409,2767,3,Solo Trip,No Preference,No,No
+C0388,Vivaan Nair,Budget,1616,2730,1,Weekend Getaway,Delhi-NCR,No,No
+C0389,Aditya Malhotra,Premium,6257,9452,2,Friends Trip,Himachal Pradesh,Yes,No
+C0390,Rahul Sharma,Mid-Range,2868,4025,5,Solo Trip,No Preference,No,No
+C0391,Diya Mehra,Premium,7939,10852,5,Weekend Getaway,No Preference,Yes,Yes
+C0392,Diya Verma,Budget,1555,2474,3,Friends Trip,No Preference,No,Yes
+C0393,Karan Malhotra,Budget,1593,2482,4,Friends Trip,Delhi-NCR,No,No
+C0394,Rohan Reddy,Mid-Range,3056,5265,2,Family Trip,Himachal Pradesh,No,No
+C0395,Simran Iyer,Budget,1647,2403,3,Family Trip,No Preference,No,No
+C0396,Vivaan Gupta,Premium,5791,9886,3,Solo Trip,Delhi-NCR,No,No
+C0397,Diya Kapoor,Budget,1265,1916,2,Solo Trip,Delhi-NCR,No,No
+C0398,Ananya Sharma,Budget,1227,2058,2,Family Trip,Punjab,Yes,No
+C0399,Tanvi Mehra,Budget,1260,2315,5,Solo Trip,Delhi-NCR,No,No
+C0400,Ishaan Khanna,Budget,1616,2119,1,Couple Getaway,No Preference,No,No
+C0401,Aditya Nair,Budget,1255,2110,1,Couple Getaway,No Preference,No,No
+C0402,Karan Khanna,Budget,1653,2651,5,Family Trip,Punjab,Yes,No
+C0403,Sara Sharma,Budget,1302,2079,2,Friends Trip,Himachal Pradesh,Yes,No
+C0404,Priya Iyer,Mid-Range,3047,5235,2,Couple Getaway,Punjab,No,No
+C0405,Meera Chopra,Mid-Range,3247,5378,5,Family Trip,Himachal Pradesh,No,No
+C0406,Rohan Chopra,Budget,1286,2424,2,Couple Getaway,No Preference,No,No
+C0407,Karan Chopra,Mid-Range,3194,4806,2,Family Trip,Punjab,No,No
+C0408,Karan Khanna,Premium,5188,14880,4,Weekend Getaway,Delhi-NCR,No,No
+C0409,Arjun Iyer,Budget,1369,2040,6,Friends Trip,Punjab,No,No
+C0410,Arjun Kapoor,Mid-Range,2672,4453,1,Weekend Getaway,Punjab,No,No
+C0411,Priya Bhatia,Budget,1621,2301,2,Weekend Getaway,Delhi-NCR,No,No
+C0412,Sara Reddy,Budget,1385,2008,2,Family Trip,Himachal Pradesh,Yes,No
+C0413,Simran Malhotra,Premium,6291,13053,2,Solo Trip,No Preference,No,No
+C0414,Kabir Verma,Mid-Range,3374,4753,3,Friends Trip,No Preference,No,No
+C0415,Karan Kapoor,Budget,1672,2653,6,Friends Trip,No Preference,No,No
+C0416,Simran Sharma,Budget,1671,2257,2,Solo Trip,Punjab,No,No
+C0417,Priya Chopra,Budget,1428,2182,1,Weekend Getaway,Delhi-NCR,Yes,No
+C0418,Diya Mehra,Budget,1337,2200,3,Couple Getaway,Himachal Pradesh,No,No
+C0419,Tanvi Verma,Budget,1287,1921,5,Friends Trip,Punjab,No,No
+C0420,Sara Reddy,Mid-Range,3234,4102,1,Couple Getaway,Himachal Pradesh,No,No
+C0421,Rahul Malhotra,Budget,1212,2602,3,Solo Trip,Delhi-NCR,No,No
+C0422,Ishaan Malhotra,Mid-Range,2620,4577,6,Family Trip,Himachal Pradesh,Yes,Yes
+C0423,Yash Kapoor,Mid-Range,2995,3901,1,Corporate Trip,Himachal Pradesh,No,No
+C0424,Arjun Mehra,Mid-Range,2534,4789,2,Weekend Getaway,No Preference,No,No
+C0425,Vivaan Nair,Budget,1646,2642,2,Solo Trip,Delhi-NCR,Yes,No
+C0426,Arjun Khanna,Premium,6339,14388,2,Couple Getaway,Delhi-NCR,Yes,No
+C0427,Kabir Chopra,Budget,1463,2769,2,Couple Getaway,Himachal Pradesh,No,No
+C0428,Simran Malhotra,Mid-Range,2688,3979,2,Weekend Getaway,No Preference,No,No
+C0429,Arjun Chopra,Premium,7994,14458,2,Weekend Getaway,No Preference,No,No
+C0430,Diya Mehra,Mid-Range,2689,3871,3,Couple Getaway,No Preference,No,No
+C0431,Pooja Bhatia,Budget,1496,2723,1,Couple Getaway,Delhi-NCR,No,No
+C0432,Nikhil Gupta,Mid-Range,3382,4471,1,Friends Trip,Delhi-NCR,Yes,No
+C0433,Kabir Khanna,Budget,1575,2322,4,Solo Trip,Delhi-NCR,No,No
+C0434,Tanvi Iyer,Budget,1678,2788,2,Corporate Trip,Delhi-NCR,No,No
+C0435,Rohan Chopra,Budget,1321,2028,1,Family Trip,No Preference,Yes,No
+C0436,Ishaan Khanna,Mid-Range,2884,5233,3,Weekend Getaway,Punjab,No,No
+C0437,Priya Malhotra,Budget,1465,2442,4,Friends Trip,Delhi-NCR,Yes,Yes
+C0438,Diya Gupta,Mid-Range,3069,4217,3,Corporate Trip,Delhi-NCR,Yes,No
+C0439,Ananya Reddy,Budget,1465,2005,2,Corporate Trip,Delhi-NCR,Yes,Yes
+C0440,Karan Malhotra,Premium,6716,9837,2,Couple Getaway,Delhi-NCR,No,No
+C0441,Neha Reddy,Budget,1265,2061,2,Corporate Trip,No Preference,No,No
+C0442,Meera Gupta,Mid-Range,2914,4727,4,Weekend Getaway,Punjab,Yes,Yes
+C0443,Vivaan Gupta,Budget,1258,1884,5,Solo Trip,Himachal Pradesh,No,No
+C0444,Sara Gupta,Mid-Range,3197,5032,4,Weekend Getaway,Delhi-NCR,Yes,No
+C0445,Rahul Kapoor,Premium,5513,10010,1,Couple Getaway,No Preference,Yes,No
+C0446,Neha Khanna,Mid-Range,2920,5232,1,Friends Trip,Punjab,Yes,No
+C0447,Ishaan Malhotra,Premium,7721,10521,6,Corporate Trip,Himachal Pradesh,No,Yes
+C0448,Vivaan Sharma,Mid-Range,2854,4340,4,Family Trip,Himachal Pradesh,Yes,Yes
+C0449,Kabir Reddy,Budget,1426,2668,2,Solo Trip,Punjab,No,No
+C0450,Neha Kapoor,Mid-Range,3237,5176,4,Couple Getaway,Punjab,Yes,No
+C0451,Yash Gupta,Budget,1509,2009,5,Couple Getaway,Punjab,No,No
+C0452,Aditya Reddy,Budget,1392,2652,4,Family Trip,Delhi-NCR,No,No
+C0453,Nikhil Iyer,Budget,1601,2639,4,Solo Trip,Himachal Pradesh,No,Yes
+C0454,Nikhil Bhatia,Mid-Range,3195,4211,6,Corporate Trip,Himachal Pradesh,No,No
+C0455,Aditya Nair,Budget,1517,2621,2,Solo Trip,Himachal Pradesh,No,Yes
+C0456,Simran Sharma,Budget,1623,2550,3,Family Trip,Delhi-NCR,No,No
+C0457,Nikhil Mehra,Mid-Range,3211,3780,2,Weekend Getaway,Himachal Pradesh,No,No
+C0458,Vivaan Reddy,Budget,1582,2198,3,Family Trip,Delhi-NCR,Yes,No
+C0459,Arjun Gupta,Budget,1523,2263,5,Weekend Getaway,Delhi-NCR,Yes,No
+C0460,Sara Nair,Mid-Range,2866,4071,5,Corporate Trip,No Preference,Yes,No
+C0461,Arjun Malhotra,Mid-Range,3325,3904,2,Corporate Trip,Punjab,No,No
+C0462,Kabir Bhatia,Premium,6675,8505,3,Corporate Trip,Himachal Pradesh,Yes,No
+C0463,Kabir Nair,Budget,1566,2152,2,Solo Trip,Punjab,Yes,No
+C0464,Ishaan Bhatia,Mid-Range,3161,4009,3,Corporate Trip,Delhi-NCR,No,No
+C0465,Vivaan Kapoor,Budget,1483,2429,3,Solo Trip,Delhi-NCR,No,No
+C0466,Yash Kapoor,Budget,1321,2283,3,Corporate Trip,Himachal Pradesh,No,No
+C0467,Aarav Nair,Budget,1618,2715,4,Friends Trip,Delhi-NCR,Yes,Yes
+C0468,Pooja Bhatia,Premium,7254,13552,2,Corporate Trip,Punjab,Yes,Yes
+C0469,Kabir Malhotra,Premium,5156,8699,5,Friends Trip,No Preference,No,Yes
+C0470,Yash Gupta,Budget,1544,2328,4,Friends Trip,Himachal Pradesh,No,No
+C0471,Ananya Verma,Budget,1340,2467,4,Corporate Trip,Punjab,Yes,No
+C0472,Aditya Khanna,Budget,1484,2542,4,Couple Getaway,Himachal Pradesh,Yes,No
+C0473,Priya Mehra,Mid-Range,3021,4141,4,Couple Getaway,No Preference,No,Yes
+C0474,Sara Verma,Premium,7872,11029,1,Weekend Getaway,Punjab,No,No
+C0475,Aarav Kapoor,Budget,1215,2554,2,Family Trip,Himachal Pradesh,Yes,No
+C0476,Simran Chopra,Budget,1304,1963,2,Solo Trip,Himachal Pradesh,No,No
+C0477,Aarav Reddy,Premium,5877,10289,4,Solo Trip,Punjab,No,Yes
+C0478,Diya Chopra,Premium,6396,10212,4,Friends Trip,Delhi-NCR,No,No
+C0479,Karan Chopra,Premium,6781,7286,2,Solo Trip,Punjab,Yes,Yes
+C0480,Neha Chopra,Mid-Range,2952,5001,2,Weekend Getaway,No Preference,Yes,No
+C0481,Simran Malhotra,Budget,1404,2731,2,Couple Getaway,Delhi-NCR,No,No
+C0482,Ishaan Reddy,Budget,1292,2160,1,Family Trip,Punjab,No,No
+C0483,Yash Kapoor,Budget,1411,2027,2,Weekend Getaway,Delhi-NCR,Yes,Yes
+C0484,Rohan Kapoor,Mid-Range,3154,5032,4,Couple Getaway,Himachal Pradesh,Yes,No
+C0485,Nikhil Bhatia,Mid-Range,2506,5398,2,Solo Trip,Himachal Pradesh,No,No
+C0486,Nikhil Iyer,Budget,1468,2175,2,Solo Trip,Delhi-NCR,No,No
+C0487,Simran Mehra,Premium,5244,7429,3,Couple Getaway,Himachal Pradesh,No,No
+C0488,Sara Iyer,Budget,1648,2530,3,Family Trip,Himachal Pradesh,No,No
+C0489,Diya Kapoor,Budget,1578,2797,4,Corporate Trip,Delhi-NCR,No,No
+C0490,Rahul Reddy,Mid-Range,3021,5113,2,Friends Trip,Himachal Pradesh,No,No
+C0491,Rahul Reddy,Premium,7733,12955,4,Friends Trip,No Preference,No,No
+C0492,Nikhil Sharma,Budget,1355,2699,4,Friends Trip,Himachal Pradesh,Yes,No
+C0493,Aarav Malhotra,Budget,1267,1834,4,Corporate Trip,Delhi-NCR,No,No
+C0494,Arjun Malhotra,Budget,1493,2668,2,Couple Getaway,Punjab,No,No
+C0495,Karan Iyer,Budget,1544,2180,1,Solo Trip,No Preference,No,No
+C0496,Sara Chopra,Mid-Range,2787,5303,4,Solo Trip,Himachal Pradesh,Yes,No
+C0497,Tanvi Verma,Budget,1247,1797,2,Couple Getaway,Delhi-NCR,No,No
+C0498,Arjun Gupta,Budget,1314,1838,1,Couple Getaway,Punjab,Yes,Yes
+C0499,Meera Chopra,Mid-Range,2972,4760,2,Friends Trip,No Preference,No,No
+C0500,Priya Malhotra,Budget,1269,1974,2,Couple Getaway,Delhi-NCR,No,No
+C0501,Aarav Nair,Mid-Range,3021,4514,1,Family Trip,No Preference,No,No
+C0502,Kabir Bhatia,Mid-Range,3069,5031,2,Family Trip,Punjab,No,No
+C0503,Karan Chopra,Mid-Range,2809,5480,1,Solo Trip,Delhi-NCR,Yes,No
+C0504,Aarav Kapoor,Mid-Range,2649,3721,4,Weekend Getaway,Delhi-NCR,No,No
+C0505,Yash Sharma,Mid-Range,2672,3217,5,Friends Trip,Himachal Pradesh,No,No
+C0506,Kabir Verma,Budget,1385,2324,2,Corporate Trip,Himachal Pradesh,No,No
+C0507,Diya Gupta,Budget,1512,2715,1,Couple Getaway,Punjab,No,No
+C0508,Diya Nair,Mid-Range,2517,3871,3,Family Trip,Punjab,No,No
+C0509,Vivaan Kapoor,Mid-Range,2641,3418,1,Weekend Getaway,Delhi-NCR,No,Yes
+C0510,Aarav Mehra,Budget,1489,2760,5,Friends Trip,Delhi-NCR,No,Yes
+C0511,Meera Malhotra,Premium,7350,13992,3,Solo Trip,No Preference,Yes,Yes
+C0512,Tanvi Reddy,Budget,1650,2393,2,Couple Getaway,Delhi-NCR,Yes,Yes
+C0513,Aditya Reddy,Mid-Range,3127,5350,1,Couple Getaway,Himachal Pradesh,Yes,No
+C0514,Kabir Kapoor,Mid-Range,2722,4845,6,Friends Trip,Delhi-NCR,No,No
+C0515,Aditya Chopra,Premium,6061,11673,3,Couple Getaway,Delhi-NCR,No,No
+C0516,Priya Nair,Premium,5665,12887,2,Weekend Getaway,Delhi-NCR,No,No
+C0517,Neha Kapoor,Mid-Range,2995,3939,3,Solo Trip,Delhi-NCR,No,No
+C0518,Diya Khanna,Budget,1626,2334,3,Couple Getaway,No Preference,No,No
+C0519,Neha Khanna,Mid-Range,2612,4940,3,Corporate Trip,Punjab,No,No
+C0520,Ishaan Kapoor,Premium,5367,14859,2,Solo Trip,Punjab,No,No
+C0521,Meera Kapoor,Premium,6503,12986,2,Friends Trip,No Preference,No,Yes
+C0522,Kabir Sharma,Mid-Range,3230,5194,4,Friends Trip,Delhi-NCR,Yes,No
+C0523,Yash Bhatia,Budget,1565,2579,6,Family Trip,Himachal Pradesh,No,No
+C0524,Pooja Verma,Premium,7134,10142,6,Couple Getaway,No Preference,No,No
+C0525,Vivaan Kapoor,Budget,1536,2526,2,Solo Trip,Delhi-NCR,Yes,No
+C0526,Priya Khanna,Mid-Range,3113,4112,5,Couple Getaway,Delhi-NCR,No,No
+C0527,Aditya Reddy,Mid-Range,3033,3614,2,Solo Trip,No Preference,No,No
+C0528,Sara Reddy,Budget,1457,2164,2,Couple Getaway,Delhi-NCR,No,No
+C0529,Rahul Sharma,Mid-Range,3133,4564,3,Solo Trip,No Preference,No,Yes
+C0530,Arjun Kapoor,Budget,1221,2131,5,Weekend Getaway,No Preference,Yes,No
+C0531,Simran Nair,Budget,1416,2527,3,Solo Trip,Delhi-NCR,No,Yes
+C0532,Aarav Sharma,Mid-Range,3026,4075,6,Corporate Trip,Punjab,No,No
+C0533,Meera Nair,Budget,1489,2562,4,Family Trip,Delhi-NCR,No,No
+C0534,Arjun Verma,Mid-Range,2848,3783,5,Friends Trip,Himachal Pradesh,No,No
+C0535,Tanvi Iyer,Premium,5239,7761,3,Solo Trip,Punjab,No,No
+C0536,Tanvi Kapoor,Budget,1643,2336,1,Corporate Trip,Delhi-NCR,Yes,No
+C0537,Ishaan Mehra,Mid-Range,3291,4470,1,Corporate Trip,Himachal Pradesh,No,No
+C0538,Ishaan Nair,Premium,5139,6812,2,Solo Trip,No Preference,No,Yes
+C0539,Aarav Kapoor,Premium,7818,9860,2,Friends Trip,Delhi-NCR,No,Yes
+C0540,Aditya Kapoor,Budget,1555,2072,6,Weekend Getaway,Delhi-NCR,Yes,No
+C0541,Simran Verma,Budget,1336,2680,6,Family Trip,Punjab,No,No
+C0542,Rahul Chopra,Budget,1453,2554,4,Corporate Trip,No Preference,No,No
+C0543,Aditya Iyer,Budget,1638,2377,6,Friends Trip,Delhi-NCR,No,No
+C0544,Vivaan Iyer,Mid-Range,3386,4190,4,Family Trip,No Preference,Yes,Yes
+C0545,Sara Nair,Budget,1259,1808,5,Corporate Trip,No Preference,No,No
+C0546,Nikhil Iyer,Mid-Range,2522,3277,3,Solo Trip,Himachal Pradesh,No,No
+C0547,Ananya Reddy,Budget,1599,2762,3,Corporate Trip,Punjab,No,No
+C0548,Priya Nair,Mid-Range,3120,5145,4,Couple Getaway,Delhi-NCR,No,Yes
+C0549,Simran Chopra,Mid-Range,2526,3462,5,Family Trip,Himachal Pradesh,No,No
+C0550,Diya Verma,Mid-Range,2783,4090,4,Weekend Getaway,Punjab,No,No
+C0551,Neha Kapoor,Budget,1515,2249,2,Weekend Getaway,Punjab,No,No
+C0552,Karan Verma,Mid-Range,2927,4005,2,Weekend Getaway,Delhi-NCR,No,No
+C0553,Ananya Gupta,Mid-Range,3339,5289,6,Solo Trip,Delhi-NCR,No,No
+C0554,Priya Bhatia,Budget,1639,2702,4,Friends Trip,Punjab,No,No
+C0555,Pooja Chopra,Budget,1643,2719,4,Corporate Trip,Delhi-NCR,No,No
+C0556,Tanvi Malhotra,Mid-Range,3242,4883,6,Weekend Getaway,No Preference,No,No
+C0557,Meera Mehra,Premium,6181,10460,3,Corporate Trip,Himachal Pradesh,No,No
+C0558,Aditya Malhotra,Budget,1512,2285,2,Family Trip,Punjab,No,No
+C0559,Pooja Khanna,Budget,1337,2020,4,Solo Trip,Delhi-NCR,Yes,No
+C0560,Karan Sharma,Mid-Range,3136,4042,4,Corporate Trip,Punjab,No,Yes
+C0561,Arjun Iyer,Mid-Range,3355,3901,2,Weekend Getaway,No Preference,No,No
+C0562,Ananya Bhatia,Budget,1233,2134,6,Friends Trip,Punjab,No,Yes
+C0563,Kabir Sharma,Budget,1443,2378,4,Corporate Trip,Himachal Pradesh,Yes,No
+C0564,Rohan Mehra,Budget,1654,2525,2,Solo Trip,Delhi-NCR,Yes,No
+C0565,Pooja Reddy,Premium,5116,14951,3,Couple Getaway,Punjab,Yes,Yes
+C0566,Nikhil Mehra,Premium,7049,10259,2,Family Trip,Himachal Pradesh,Yes,No
+C0567,Yash Chopra,Mid-Range,2999,5191,2,Weekend Getaway,Himachal Pradesh,No,No
+C0568,Ishaan Chopra,Mid-Range,2701,4162,1,Solo Trip,No Preference,No,No
+C0569,Aditya Nair,Mid-Range,2985,5235,2,Family Trip,Himachal Pradesh,Yes,No
+C0570,Arjun Khanna,Premium,6495,7686,2,Corporate Trip,No Preference,Yes,No
+C0571,Ishaan Bhatia,Budget,1433,2276,2,Couple Getaway,Delhi-NCR,Yes,No
+C0572,Aditya Mehra,Mid-Range,2848,4985,2,Family Trip,Punjab,No,No
+C0573,Pooja Bhatia,Mid-Range,3003,4979,2,Family Trip,Himachal Pradesh,No,Yes
+C0574,Yash Khanna,Premium,6176,11081,2,Couple Getaway,Delhi-NCR,Yes,Yes
+C0575,Tanvi Gupta,Mid-Range,3031,4373,1,Corporate Trip,Punjab,No,No
+C0576,Pooja Reddy,Mid-Range,3134,3925,4,Friends Trip,Delhi-NCR,Yes,No
+C0577,Rahul Verma,Mid-Range,2538,3704,1,Friends Trip,Himachal Pradesh,Yes,No
+C0578,Simran Khanna,Premium,5590,14100,4,Solo Trip,No Preference,No,No
+C0579,Aditya Chopra,Mid-Range,3137,3690,3,Couple Getaway,Himachal Pradesh,No,Yes
+C0580,Aditya Bhatia,Budget,1507,2115,3,Friends Trip,Himachal Pradesh,No,Yes
+C0581,Ishaan Iyer,Mid-Range,3077,5416,1,Friends Trip,No Preference,Yes,No
+C0582,Kabir Nair,Premium,7347,13433,3,Couple Getaway,Himachal Pradesh,Yes,Yes
+C0583,Neha Malhotra,Premium,7736,9179,1,Couple Getaway,Punjab,No,No
+C0584,Simran Nair,Premium,6510,14310,4,Corporate Trip,Delhi-NCR,Yes,Yes
+C0585,Meera Nair,Premium,7594,8909,2,Friends Trip,Delhi-NCR,No,No
+C0586,Karan Gupta,Budget,1366,2139,2,Corporate Trip,No Preference,No,Yes
+C0587,Vivaan Reddy,Premium,7710,11482,3,Family Trip,Punjab,No,No
+C0588,Pooja Kapoor,Budget,1266,2419,2,Corporate Trip,No Preference,No,Yes
+C0589,Tanvi Sharma,Premium,6756,9497,3,Couple Getaway,Delhi-NCR,No,No
+C0590,Sara Malhotra,Budget,1246,2564,1,Couple Getaway,No Preference,No,No
+C0591,Tanvi Bhatia,Mid-Range,3056,4439,1,Corporate Trip,No Preference,Yes,No
+C0592,Simran Verma,Budget,1295,2484,4,Weekend Getaway,Delhi-NCR,No,Yes
+C0593,Aarav Kapoor,Mid-Range,2931,3750,1,Weekend Getaway,Himachal Pradesh,No,Yes
+C0594,Neha Chopra,Budget,1628,2716,1,Couple Getaway,No Preference,No,Yes
+C0595,Simran Kapoor,Budget,1430,2293,2,Weekend Getaway,Himachal Pradesh,No,No
+C0596,Neha Gupta,Premium,5739,9354,3,Solo Trip,Delhi-NCR,No,Yes
+C0597,Vivaan Malhotra,Mid-Range,2844,4586,3,Couple Getaway,Himachal Pradesh,No,No
+C0598,Yash Nair,Mid-Range,2825,3333,5,Couple Getaway,No Preference,Yes,Yes
+C0599,Rohan Gupta,Premium,7736,11631,6,Friends Trip,Himachal Pradesh,Yes,No
+C0600,Rohan Malhotra,Budget,1392,2585,3,Solo Trip,Delhi-NCR,Yes,No
