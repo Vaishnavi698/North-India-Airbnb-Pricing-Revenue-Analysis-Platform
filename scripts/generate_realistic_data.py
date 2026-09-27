@@ -17,8 +17,9 @@ if not os.path.exists(raw_path):
 
 df = pd.read_csv(raw_path)
 
-# 2. State Mapping
+# 2. Expanded State & Region Mapping (Including Delhi-NCR, Punjab, and Himachal Pradesh)
 state_map = {
+    # Delhi Neighborhoods
     'Paharganj': 'Delhi',
     'Lajpat Nagar': 'Delhi',
     'South Extension': 'Delhi',
@@ -40,19 +41,49 @@ state_map = {
     'Vikaspuri': 'Delhi',
     'Mehrauli': 'Delhi',
     'Green Park': 'Delhi',
+    
+    # Uttar Pradesh
     'Noida Sector 18': 'Uttar Pradesh',
     'Noida Sector 137': 'Uttar Pradesh',
     'Noida Sector 62': 'Uttar Pradesh',
     'Noida Sector 75': 'Uttar Pradesh',
     'Ghaziabad Indirapuram': 'Uttar Pradesh',
     'Ghaziabad Vaishali': 'Uttar Pradesh',
+    
+    # Haryana
     'Faridabad Sector 15': 'Haryana',
     'Gurgaon Sector 47': 'Haryana',
     'Gurgaon Golf Course Road': 'Haryana',
     'Gurgaon DLF Phase 2': 'Haryana',
     'Gurgaon Cyber City': 'Haryana',
+    
+    # Punjab (Added for rich regional filter coverage)
+    'Amritsar Golden Temple Area': 'Punjab',
+    'Ludhiana Civil Lines': 'Punjab',
+    'Chandigarh Sector 17': 'Punjab',
+    'Jalandhar Cantt': 'Punjab',
+    'Patiala Heritage Zone': 'Punjab',
+    'Punjab Farm Stay Rural': 'Punjab',
+    
+    # Himachal Pradesh (Added for mountain & valley coverage)
+    'Shimla Mall Road': 'Himachal Pradesh',
+    'Manali Old Manali': 'Himachal Pradesh',
+    'Dharamshala McLeod Ganj': 'Himachal Pradesh',
+    'Kasauli Ridge': 'Himachal Pradesh',
+    'Solan Valley': 'Himachal Pradesh',
+    'Dalhousie Pine Hills': 'Himachal Pradesh',
 }
+
+# Map neighborhoods, and use a flexible fallback for any unmapped or synthetic rows
 df['state'] = df['neighbourhood'].map(state_map)
+# Fallback distribution for rows that don't match exact dictionary keys
+unmapped_mask = df['state'].isna()
+if unmapped_mask.any():
+    df.loc[unmapped_mask, 'state'] = np.random.choice(
+        ['Delhi', 'Uttar Pradesh', 'Haryana', 'Punjab', 'Himachal Pradesh'], 
+        size=unmapped_mask.sum(), 
+        p=[0.4, 0.2, 0.2, 0.1, 0.1]
+    )
 
 # 3. Market Pricing Multipliers by Room Type
 multiplier = {
@@ -87,4 +118,4 @@ df['instant_bookable'] = np.random.choice(['t', 'f'], size=len(df), p=[0.4, 0.6]
 
 # 5. Save processed CSV
 df.to_csv(output_path, index=False)
-print(f'Success! Realistic dataset generated at: {output_path}')
+print(f'Success! Realistic dataset with full North India coverage generated at: {output_path}')
