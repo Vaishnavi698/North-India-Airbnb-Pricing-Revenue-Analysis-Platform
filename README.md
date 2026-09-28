@@ -13,7 +13,7 @@
 ---
 
 ## 📖 Contents
-1. [The problem in plain English](#-the-problem-in-plain-english)
+1. [Project explain with example](#-Project-explain-with-example)
 2. [What this project does](#-what-this-project-does)
 3. [Key ideas](#-key-ideas)
 4. [What the dashboard shows](#-what-the-dashboard-shows)
@@ -25,7 +25,7 @@
 
 ---
 
-## 🧩 The problem in plain English
+## 🧩 Project explain with example 
 
 Say a city's **average** Airbnb price is **₹5,000 a night**.
 
